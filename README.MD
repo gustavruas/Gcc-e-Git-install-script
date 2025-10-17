@@ -5,10 +5,9 @@
 ### Abra o terminal com Control + Aspas e então copie e cole o seguinte comando
 
 ```batch
-C:\msys64\usr\bin\gcc.exe
-```
-
-### Esse comando é equivalente a "gcc", então o uso será conforme o da ferramenta
+set PATH=%PATH%;C:\msys2\bin
+```
+### Pra quem nunca usou o gcc, apenas digite "gcc" que o terminal resumo as opções dele, porém, no geral, só usaremos o abaixo:
 
 ```bash
 gcc "nome do programa em C" -o "nome do executavel"
