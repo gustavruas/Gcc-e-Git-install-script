@@ -5,7 +5,7 @@
 ### Abra o terminal com Control + Aspas e então copie e cole o seguinte comando
 
 ```batch
-set PATH=%PATH%;C:\msys2\bin // atualizar esse Path q tá errado
+set PATH=%PATH%;C:\msys64\usr\bin
 ```
 ### Pra quem nunca usou o gcc, apenas digite "gcc" que o terminal resumo as opções dele, porém, no geral, só usaremos o abaixo:
 
