@@ -1,6 +1,6 @@
 # Guia de uso do compilador no vscode
 
-## Infelizmente, não temos acesso ao PATH por causa da TI, então usaremos o caminho completo do gcc na sua maquina.
+## Infelizmente a TI não dá acesso a GUI do Path, então atualizarem ele pra apenas aquela instância do terminal(se fechar vai ter q executar o comando dnv)
 
 ### Abra o terminal com Control + Aspas e então copie e cole o seguinte comando
 
