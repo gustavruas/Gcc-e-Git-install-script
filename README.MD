@@ -1,6 +1,6 @@
 # Guia de uso do compilador no vscode
 
-## Infelizmente a TI não dá acesso a GUI do Path, então atualizarem ele pra apenas aquela instância do terminal(se fechar vai ter q executar o comando dnv); uso exclusivo no Powershell, NÃO no CMD
+## Infelizmente a TI não dá acesso a GUI do Path, então atualizarem ele pra apenas aquela instância do terminal do VSCODE(se fechar vai ter q executar o comando dnv); uso exclusivo no Powershell, NÃO no CMD
 
 ```powershell
 $env:Path += ";C:\msys64\usr\bin";$env:Path += ";C:\msys64\usr\lib"
@@ -10,4 +10,5 @@ $env:Path += ";C:\msys64\usr\bin";$env:Path += ";C:\msys64\usr\lib"
 ```bash
 gcc "nome do programa em C" -o "nome do executavel"
 ```
+
 
