@@ -14,3 +14,4 @@ Write-Host "Instalando o gdb no msys2"
 Start-Process -Wait -FilePath C:\msys64\msys2_shell.cmd -ArgumentList "-defterm -no-start -mingw64 -here -c 'pacman -S --noconfirm mingw-w64-ucrt-x86_64-gdb'"
 
 Write-Host "Sucesso"
+exit
