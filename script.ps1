@@ -13,5 +13,7 @@ Start-Process -Wait -FilePath C:\msys64\msys2_shell.cmd -ArgumentList "-defterm 
 Write-Host "Instalando o gdb no msys2"
 Start-Process -Wait -FilePath C:\msys64\msys2_shell.cmd -ArgumentList "-defterm -no-start -mingw64 -here -c 'pacman -S --noconfirm mingw-w64-x86_64-gdb'"
 
+$env:Path += ";C:\msys64\usr\bin";$env:Path += ";C:\msys64\usr\lib";$env:Path += ";C:\msys64\mingw64\bin"
+
 Write-Host "Sucesso"
 exit
